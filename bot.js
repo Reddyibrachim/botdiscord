@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = 'NzMyMTA0ODc0OTU5MDQ0NjA4.XxPx-g.EwhwQmBSLScLgTPgPu9BRBkJY0U';
 const fs = require("fs");
 
 //Global Settings
