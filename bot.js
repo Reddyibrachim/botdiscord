@@ -21,7 +21,7 @@ bot.on('ready', () => {
    console.log('THE PUNISHER SUMMONED')
 });
 
-bot.login(TOKEN);
+bot.login(process.env.BOT_TOKEN);
 
 //Listening
 bot.on("message", function(message) {
